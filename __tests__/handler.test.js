@@ -1,5 +1,5 @@
 const handler = require("../handler");
-const { wait } = require("../wait");
+const wait = require("../wait");
 
 describe("handler", () => {
   it("should call wait", async () => {
